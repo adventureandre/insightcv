@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <title>insight</title>
+        <title>Em Criação - Aguarde</title>
         <link rel="icon" type="image/x-icon" href="https://hpanel.hostinger.com/favicons/hostinger.png">
         <meta charset="utf-8">
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -107,4 +107,38 @@
                 <!-- Restante do seu código SVG -->
             </svg>
             <h1>Está tudo pronto!</h1>
-            <p>Tudo o que tem de fazer agora é carregar os ficheiros do seu site e iniciar a sua jornada. Veja como fazer isto abaixo
+            <p>Tudo o que tem de fazer agora é carregar os ficheiros do seu site e iniciar a sua jornada. Veja como fazer isto abaixo:</p>
+            <div class="link-container">
+                <a 
+                    class="link"
+                    href="https://support.hostinger.com/en/articles/4455931-how-can-i-migrate-website-to-hostinger"
+                    rel="nofollow"
+                    target="_blank"
+                >
+                    Como posso migrar um site para a Hostinger? 
+                    <svg class="ic-launch" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Ícone de link -->
+                    </svg>
+                </a>
+                <a 
+                    class="link"
+                    href="https://support.hostinger.com/en/articles/3220304-how-to-install-wordpress-using-auto-installer"
+                    rel="nofollow"
+                    target="_blank"
+                >
+                    Como instalar o WordPress com o Instalador Automático?
+                    <svg class="ic-launch" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Ícone de link -->
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            // Simula um tempo de carregamento para demonstração
+            setTimeout(function () {
+                document.getElementById('loader-container').style.visibility = 'hidden';
+            }, 3000);
+        </script>
+    </body>
+</html>
